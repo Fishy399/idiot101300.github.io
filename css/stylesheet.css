@@ -64,6 +64,8 @@ header {
 /* Add an off-white background color to the top navigation */
 nav {
   background-color: #F6F8FA;
+  border-left: #577399 3px solid;
+  border-right: #577399 3px solid;
   overflow: hidden;
 }
 
@@ -72,8 +74,8 @@ nav a {
   font-family: 'Russo One', sans-serif;
   float: left;
   display: block;
-  /* color: #577399; */
-  color: black;
+  color: #577399;
+  /* color: black; */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
