@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  background-color: #E8E9EB;
+
+  /* MAIN FONTS */
+  /* Not sure which one looks better */
+  font: 15px/1.5;
+	font-family: 'Roboto', sans-serif;
+  /* font-family: Verdana, sans-serif; */
+  color: #313638;
+}
+
+/* GLOBAL CLASSES */
+
+p {
+  color: #313638;
+}
+
+.container {
+  /* prevents overflow */
+	/*width: 80%;*/
+	margin: 0;
+	overflow: hidden;
+}
+
+.text-bold {
+  color: #313638;
+  font-weight: bold;
+}
+
+.code {
+  font-family: 'Source Code Pro', monospace;
+  color: #313638;
+  list-style: square;
+}
+
+.copyright {
+  color: #577399;
+  text-align: center;
+}
+
+.gallery {
+	width: 100%;
+	height: auto;
+}
+
+/* HEADER */
+header {
+  border-top: #577399 3px solid;
+  border-bottom: #577399 3px solid;
+}
+
+/* NAVIGATION: */
+/* Add a black background color to the top navigation */
+nav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+  font-family: 'Russo One', sans-serif;
+  float: left;
+  display: block;
+  /* color: #577399; */
+  color: lime;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: grey;
+  color: #E7DFDD;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+  background-color: #e8491d;
+  color: white;
+}
+
+/* SECTION */
+section {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  overflow: hidden;
+
+  background-color: #f4f4f4;
+  min-height: 50vh;
+}
+
+section h1 {
+  margin: 5px;
+  color: lime;
+  size: 500px;
+  font-weight: bold;
+  font-family: 'Russo One', sans-serif;
+  text-align: center;;
+}
+
+section h2 {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+section p {
+	margin: 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 10px;
+  padding: 5px;
+  border-top: #313638 3px solid;
+  border-bottom: #313638 3px solid;
+  background-color: black;
+}
+
+.emphasis {
+  /* background-color: grey; */
+  background-color: green;
+
+  /* border-left: #577399 3px solid;
+  border-right: #577399 3px solid; */
+
+}
+
+.centerText{
+  text-align: center;
+}
+
+.altBackground{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Media queries */
+
+.frontPage{
+  font-family: 'Russo One', sans-serif;
+  font-size: 24px;
+}
