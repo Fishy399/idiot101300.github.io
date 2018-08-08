@@ -1,0 +1,1 @@
+# idiot101300.github.io
