@@ -63,7 +63,7 @@ header {
 /* NAVIGATION: */
 /* Add an off-white background color to the top navigation */
 nav {
-  background-color: #F6F8FA;
+  background-color: black;
   border-left: #577399 3px solid;
   border-right: #577399 3px solid;
   overflow: hidden;
