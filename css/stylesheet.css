@@ -45,7 +45,7 @@ p {
 }
 
 .copyright {
-  color: #577399;
+  color: #d196c0;
   text-align: center;
 }
 
@@ -133,7 +133,7 @@ footer {
 }
 
 .emphasis {
-  background-color: grey;
+  background-color: #d196c0;
 
   border-left: #577399 3px solid;
   border-right: #577399 3px solid;
