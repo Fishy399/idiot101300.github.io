@@ -45,7 +45,7 @@ p {
 }
 
 .copyright {
-  color: #d196c0;
+  color: #577399;
   text-align: center;
 }
 
@@ -56,16 +56,16 @@ p {
 
 /* HEADER */
 header {
-  border-top: #577399 3px solid;
-  border-bottom: #577399 3px solid;
+  /*border-top: #577399 3px solid;
+  border-bottom: #577399 3px solid; */
 }
 
 /* NAVIGATION: */
 /* Add an off-white background color to the top navigation */
 nav {
   background-color: black;
-  border-left: #577399 3px solid;
-  border-right: #577399 3px solid;
+  /*border-left: #577399 3px solid;
+  border-right: #577399 3px solid;*/
   overflow: hidden;
 }
 
@@ -135,7 +135,7 @@ footer {
 }
 
 .emphasis {
-  background-color: #d196c0;
+  background-color: white;
 
   border-left: #577399 3px solid;
   border-right: #577399 3px solid;
