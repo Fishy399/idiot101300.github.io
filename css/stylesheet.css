@@ -86,8 +86,8 @@ nav a {
 nav a:hover {
   background-color: grey;
   color: #E7DFDD;
-  border-left: #577399 3px solid;
-  border-right: #577399 3px solid;
+  /*border-left: #577399 3px solid;
+  border-right: #577399 3px solid;*/
 }
 
 /* Add a color to the active/current link */
