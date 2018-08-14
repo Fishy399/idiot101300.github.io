@@ -61,7 +61,7 @@ header {
 }
 
 /* NAVIGATION: */
-/* Add an off-white background color to the top navigation */
+/* Add an black background color to the top navigation */
 nav {
   background-color: black;
   /*border-left: #577399 3px solid;
@@ -111,7 +111,7 @@ section {
 
 section h1 {
   margin: 5px;
-  color: lime;
+  color: #577399;
   size: 500px;
   font-weight: bold;
   font-family: 'Russo One', sans-serif;
@@ -160,5 +160,6 @@ footer {
 }
 
 .quote{
-  
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
