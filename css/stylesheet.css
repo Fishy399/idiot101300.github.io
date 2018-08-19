@@ -33,39 +33,15 @@ p {
 	overflow: hidden;
 }
 
-.text-bold {
-  color: #313638;
-  font-weight: bold;
-}
-
-.code {
-  font-family: 'Source Code Pro', monospace;
-  color: #313638;
-  list-style: square;
-}
-
 .copyright {
   color: #577399;
   text-align: center;
-}
-
-.gallery {
-	width: 100%;
-	height: auto;
-}
-
-/* HEADER */
-header {
-  /*border-top: #577399 3px solid;
-  border-bottom: #577399 3px solid; */
 }
 
 /* NAVIGATION: */
 /* Add an black background color to the top navigation */
 nav {
   background-color: black;
-  /*border-left: #577399 3px solid;
-  border-right: #577399 3px solid;*/
   overflow: hidden;
 }
 
@@ -86,14 +62,19 @@ nav a {
 nav a:hover {
   background-color: grey;
   color: #E7DFDD;
-  /*border-left: #577399 3px solid;
-  border-right: #577399 3px solid;*/
 }
 
 /* Add a color to the active/current link */
 nav a.active {
   background-color: #e8491d;
   color: white;
+}
+
+.emphasis {
+  background-color: white;
+
+  border-left: #577399 3px solid;
+  border-right: #577399 3px solid;
 }
 
 /* SECTION */
@@ -134,14 +115,6 @@ footer {
   background-color: black;
 }
 
-.emphasis {
-  background-color: white;
-
-  border-left: #577399 3px solid;
-  border-right: #577399 3px solid;
-
-}
-
 .centerText{
   text-align: center;
 }
@@ -150,13 +123,6 @@ footer {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
-
-/* Media queries */
-
-.frontPage{
-  font-family: 'Russo One', sans-serif;
-  font-size: 24px;
 }
 
 .quote{
