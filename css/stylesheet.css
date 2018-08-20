@@ -96,12 +96,15 @@ section h1 {
   size: 500px;
   font-weight: bold;
   font-family: 'Russo One', sans-serif;
-  text-align: center;;
+  text-align: center;
 }
 
 section h2 {
 	margin: 0;
 	font-size: 1.2em;
+  color: lime;
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
 }
 
 section p {
