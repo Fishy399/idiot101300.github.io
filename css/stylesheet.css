@@ -133,3 +133,7 @@ footer {
   font-weight: bold;
   font-size: 20px;
 }
+
+.reference{
+  list-style: square;
+}
